@@ -36,7 +36,7 @@ export default defineManifest({
       matches: [],
     },
   ],
-  permissions: ['sidePanel', 'storage', 'declarativeNetRequest', 'declarativeNetRequestFeedback'],
+  permissions: ['declarativeNetRequest', 'declarativeNetRequestFeedback'],
   declarative_net_request: {
     rule_resources: [
       {
